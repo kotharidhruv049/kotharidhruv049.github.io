@@ -1,0 +1,42 @@
+=================================================================
+QUICK COPY-PASTE COMMANDS FOR GITHUB PUSH
+=================================================================
+
+Username: kotharidhruv049
+Repository: kotharidhruv049.github.io
+Live URL: https://kotharidhruv049.github.io
+
+-----------------------------------------------------------------
+STEP 1: Create repository on GitHub
+-----------------------------------------------------------------
+Go to: https://github.com/new
+- Repository name: kotharidhruv049.github.io
+- Public
+- Don't initialize with anything
+- Click "Create repository"
+
+-----------------------------------------------------------------
+STEP 2: Push code (run in /app/frontend folder)
+-----------------------------------------------------------------
+
+git remote add origin https://github.com/kotharidhruv049/kotharidhruv049.github.io.git
+git branch -M main
+git push -u origin main
+
+-----------------------------------------------------------------
+STEP 3: Deploy to GitHub Pages
+-----------------------------------------------------------------
+
+yarn add -D gh-pages
+yarn deploy
+
+-----------------------------------------------------------------
+DONE! Your site will be live at:
+https://kotharidhruv049.github.io
+-----------------------------------------------------------------
+
+Wait 5-10 minutes after first deploy.
+
+To update later: just run "yarn deploy"
+
+=================================================================

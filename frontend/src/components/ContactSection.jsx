@@ -194,25 +194,6 @@ export const ContactSection = () => {
                 </div>
               </Card>
 
-              {/* Office Hours */}
-              <Card className="p-6 bg-white border-2 border-teal-200">
-                <h3 className="font-semibold text-lg text-blue-900 mb-4">Office Hours</h3>
-                <div className="space-y-3 text-slate-600">
-                  <div className="flex justify-between">
-                    <span>Monday - Friday</span>
-                    <span className="font-medium text-blue-900">9:00 AM - 6:00 PM</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Saturday</span>
-                    <span className="font-medium text-blue-900">10:00 AM - 2:00 PM</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Sunday</span>
-                    <span className="font-medium text-slate-400">Closed</span>
-                  </div>
-                </div>
-              </Card>
-
               {/* Why Contact Us */}
               <Card className="p-6 bg-gradient-to-br from-teal-50 to-blue-50 border-2 border-teal-200">
                 <h3 className="font-semibold text-lg text-blue-900 mb-4">What to expect</h3>

@@ -5,8 +5,8 @@ export const companyInfo = {
   shortName: "DKFS",
   tagline: "Wealth Creation Simplified",
   email: "dkfs.invest@gmail.com",
-  phone: "+91 98765 43210",
-  address: "Mumbai, Maharashtra, India"
+  phone: "+91 79972 93303",
+  address: "Hyderabad, Ameerpet"
 };
 
 export const aboutContent = {

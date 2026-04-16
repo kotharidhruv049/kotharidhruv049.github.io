@@ -15,8 +15,7 @@ export const aboutContent = {
   certifications: [
     "AMFI Registered Mutual Fund Distributor",
     "NISM Certified Investment Advisor",
-    "IRDAI Licensed Insurance Agent",
-    "Certified Financial Planner (CFP)"
+    "IRDAI Licensed Insurance Agent"
   ]
 };
 

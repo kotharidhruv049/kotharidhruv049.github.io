@@ -12,9 +12,6 @@ export const companyInfo = {
 export const aboutContent = {
   title: "About DKFS",
   description: "Dhruv Kothari Financial Services is your trusted partner in building long-term wealth through strategic investment planning. We specialize in mutual funds, systematic investment plans (SIPs), and comprehensive insurance solutions tailored to your financial goals.",
-  experience: "10+ Years",
-  clients: "500+",
-  aum: "₹50+ Cr",
   certifications: [
     "AMFI Registered Mutual Fund Distributor",
     "NISM Certified Investment Advisor",

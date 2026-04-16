@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card } from './ui/card';
 import { Badge } from './ui/badge';
-import { Award, Users, TrendingUp, CheckCircle } from 'lucide-react';
+import { Award, CheckCircle } from 'lucide-react';
 import { aboutContent } from '../mock';
 
 export const AboutSection = () => {
@@ -26,25 +26,6 @@ export const AboutSection = () => {
               <p className="text-lg text-slate-600 leading-relaxed mb-8">
                 {aboutContent.description}
               </p>
-
-              {/* Stats Cards */}
-              <div className="grid grid-cols-3 gap-4 mb-8">
-                <Card className="p-4 text-center bg-gradient-to-br from-teal-50 to-blue-50 border-teal-200 hover:shadow-lg transition-shadow duration-300">
-                  <Users className="w-8 h-8 text-teal-600 mx-auto mb-2" />
-                  <div className="font-bold text-2xl text-blue-900">{aboutContent.clients}</div>
-                  <div className="text-xs text-slate-600">Clients</div>
-                </Card>
-                <Card className="p-4 text-center bg-gradient-to-br from-blue-50 to-teal-50 border-blue-200 hover:shadow-lg transition-shadow duration-300">
-                  <TrendingUp className="w-8 h-8 text-blue-700 mx-auto mb-2" />
-                  <div className="font-bold text-2xl text-blue-900">{aboutContent.experience}</div>
-                  <div className="text-xs text-slate-600">Experience</div>
-                </Card>
-                <Card className="p-4 text-center bg-gradient-to-br from-teal-50 to-blue-50 border-teal-200 hover:shadow-lg transition-shadow duration-300">
-                  <Award className="w-8 h-8 text-teal-600 mx-auto mb-2" />
-                  <div className="font-bold text-2xl text-blue-900">{aboutContent.aum}</div>
-                  <div className="text-xs text-slate-600">AUM</div>
-                </Card>
-              </div>
 
               {/* Why Choose Us */}
               <div className="space-y-3">

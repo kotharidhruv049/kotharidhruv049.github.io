@@ -40,27 +40,11 @@ export const HeroSection = () => {
             Wealth Creation Simplified
           </h1>
 
-          <p className="text-xl sm:text-2xl text-slate-600 mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl sm:text-2xl text-slate-600 mb-12 max-w-2xl mx-auto leading-relaxed">
             Your trusted partner for <span className="font-semibold text-teal-700">Mutual Funds</span>, 
             <span className="font-semibold text-teal-700"> SIPs</span>, and 
             <span className="font-semibold text-teal-700"> Insurance Solutions</span>
           </p>
-
-          {/* Stats */}
-          <div className="flex flex-wrap justify-center gap-8 mb-10">
-            <div className="text-center">
-              <div className="text-3xl font-bold text-blue-900">10+</div>
-              <div className="text-sm text-slate-600">Years Experience</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-blue-900">500+</div>
-              <div className="text-sm text-slate-600">Happy Clients</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-blue-900">₹50+ Cr</div>
-              <div className="text-sm text-slate-600">Assets Under Advisory</div>
-            </div>
-          </div>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

@@ -1,4 +1,4 @@
-// Mock data for DKFS website
+// Static data for DKFS website
 
 export const companyInfo = {
   name: "Dhruv Kothari Financial Services",
@@ -54,16 +54,3 @@ export const services = [
     ]
   }
 ];
-
-export const mockContactSubmit = (formData) => {
-  // Mock contact form submission
-  console.log("Contact form submitted:", formData);
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve({
-        success: true,
-        message: "Thank you for reaching out! We'll contact you within 24 hours."
-      });
-    }, 1000);
-  });
-};
